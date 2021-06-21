@@ -11,13 +11,9 @@
 int main(void)
 
 {
-int i;
 char ch;
-for (i = '0'; i <= '9'; i++)
-{
-putchar(i);
-}
-for (ch = 'a'; ch <= 'f'; ch++)
+
+for (ch = 'z'; ch >= 'a'; ch--)
 {
 putchar(ch);
 }
