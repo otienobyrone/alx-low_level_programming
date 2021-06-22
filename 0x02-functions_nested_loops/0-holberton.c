@@ -1,12 +1,14 @@
 #include <stdio.h>
 
 int main () {
-   char Holberton;
+   int Holberton;
 
     {
       putchar(Holberton);
-      putchar('\n');
    }
+    {
+     putchar('\n');
+    }
    
    return(0);
 }
