@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include "holberton.h"
+#include "0-holberton.c"
 
 /**
  * print_alphabet - check the code for Alx school students.
@@ -16,7 +17,7 @@ char c;
 
 for (c = 'a'; c <= 'z'; c++)
 {
-_putchar(c);
+putchar(c);
 }
-_putchar('\n');
+putchar('\n');
 }
