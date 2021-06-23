@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "holberton.h"
 #include "0-holberton.c"
 
 /**
