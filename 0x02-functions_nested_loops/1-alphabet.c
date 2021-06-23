@@ -1,4 +1,3 @@
-#include "0-holberton.c"
 #include <stdio.h>
 
 /**
