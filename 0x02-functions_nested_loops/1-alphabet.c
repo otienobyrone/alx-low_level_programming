@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "0-holberton.c"
+#include <stdio.h>
 
 /**
  * print_alphabet - check the code for Alx school students.
