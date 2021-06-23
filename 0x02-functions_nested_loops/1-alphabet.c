@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "holberton.h"
 
 /**
  * print_alphabet - check the code for Alx school students.
@@ -13,7 +13,7 @@ char c;
 
 for (c = 'a'; c <= 'z'; c++)
 {
-putchar(c);
+_putchar(c);
 }
-putchar('\n');
+_putchar('\n');
 }
