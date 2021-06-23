@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "holberton.h"
 
 /**
@@ -13,7 +14,7 @@ char c;
 
 for (c = 'a'; c <= 'z'; c++)
 {
-_putchar(c);
+putchar(c);
 }
-_putchar('\n');
+putchar('\n');
 }
