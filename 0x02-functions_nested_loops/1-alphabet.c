@@ -1,19 +1,19 @@
-#include <stdio.h>
 #include "holberton.h"
+
 /**
- * main - Entry point
+ * print_alphabet - check the code for Alx school students.
  *
  * Return: Always 0 (Success)
  */
 
-int main(void)
+void print_alphabet(void)
 
 {
-char ch;
-for (ch = 'a'; ch <= 'z'; ch++)
+char c;
+
+for (c = 'a'; c <= 'z'; c++)
 {
-putchar(ch);
+_putchar(c);
 }
-putchar('\n');
-return (0);
+_putchar('\n');
 }
