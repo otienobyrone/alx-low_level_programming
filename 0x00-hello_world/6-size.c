@@ -1,12 +1,6 @@
 #include<stdio.h>
 /*size of data types */
 int main(){
-	int
-	char
-	float
-	double
-	long int
-	long long int
 	printf("Size of char:%ld\n",sizeof(char));
 	printf("Size of int:%ld\n",sizeof(int));
 	printf("Size of float:%ld\n",sizeof(float));
